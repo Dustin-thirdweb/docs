@@ -1,5 +1,6 @@
 import React from "react";
 import ThemedImage from "@theme/ThemedImage";
+import Head from "@docusaurus/Head";
 
 export default function Hero() {
   return (
@@ -15,6 +16,19 @@ export default function Hero() {
             networks.
           </p>
         </div>
+        <Head>
+        <title>thirdweb Custom Dashboard Example</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+          name="description"
+          content="thirdweb example repository to showcase how to use thirdweb's deployer to dynamically deploy any of thirdweb's pre-built smart contracts"
+        />
+        <meta
+          name="keywords"
+          content="thirdweb, thirdweb deployer, thirdweb sdk deploy contract, thirdweb sdk, thirdweb react, thirdweb typescript"
+        />
+        <script id="__CONTEXT_BUBBLE__" src="https://portal.usecontext.io/portal/portal.js" data-bot-id="SV3HwtSN0" data-theme="light" data-type="launcher" data-position="bottom-right" data-background="#000000" data-color="#FFFFFF"></script>
+      </Head>
 
         <div className="hero-right">
           <div className="hero-right-image-container">
